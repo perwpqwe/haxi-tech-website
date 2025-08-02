@@ -169,6 +169,6 @@ This project is created for Sichuan Haxi Information Technology Co., Ltd. All ri
 
 ---
 
-**Contact**: info@haxitech.com  
-**Phone**: +86 028-XXXX-XXXX  
+**Contact**: info@maokezi.com  
+**Phone**: +86 028-5477-6762  
 **Address**: Chengdu, Sichuan Province, China 
