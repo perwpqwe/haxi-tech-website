@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四川哈夕信息技术有限责任公司 | Sichuan Haxi Information Technology Co., Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 data-zh="哈夕科技" data-en="Haxi Tech">哈夕科技</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link" data-zh="首页" data-en="Home">首页</a>
+                <a href="#services" class="nav-link" data-zh="服务" data-en="Services">服务</a>
+                <a href="#about" class="nav-link" data-zh="关于我们" data-en="About">关于我们</a>
+                <a href="#contact" class="nav-link" data-zh="联系我们" data-en="Contact">联系我们</a>
+                <button class="language-toggle" onclick="toggleLanguage()">
+                    <span class="lang-text" data-zh="EN" data-en="中文">EN</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span data-zh="四川哈夕信息技术有限责任公司" data-en="Sichuan Haxi Information Technology Co., Ltd.">四川哈夕信息技术有限责任公司</span>
+                </h1>
+                <p class="hero-subtitle" data-zh="专业的信息技术服务提供商，致力于为企业提供创新的技术解决方案" data-en="Professional IT service provider dedicated to delivering innovative technology solutions for enterprises">专业的信息技术服务提供商，致力于为企业提供创新的技术解决方案</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary" data-zh="了解服务" data-en="Our Services">了解服务</a>
+                    <a href="#contact" class="btn btn-secondary" data-zh="联系我们" data-en="Contact Us">联系我们</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="tech-icons">
+                    <i class="fas fa-code"></i>
+                    <i class="fas fa-robot"></i>
+                    <i class="fas fa-shield-alt"></i>
+                    <i class="fas fa-cloud"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-zh="我们的服务" data-en="Our Services">我们的服务</h2>
+                <p data-zh="为您提供全方位的专业技术服务" data-en="Comprehensive professional services for your business">为您提供全方位的专业技术服务</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 data-zh="信息技术咨询" data-en="IT Consulting">信息技术咨询</h3>
+                    <p data-zh="为企业提供专业的信息技术战略规划、系统架构设计和技术选型咨询服务" data-en="Professional IT strategy planning, system architecture design, and technology selection consulting for enterprises">为企业提供专业的信息技术战略规划、系统架构设计和技术选型咨询服务</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 data-zh="软件开发" data-en="Software Development">软件开发</h3>
+                    <p data-zh="定制化软件开发服务，包括Web应用、移动应用、企业管理系统等" data-en="Custom software development including web applications, mobile apps, and enterprise management systems">定制化软件开发服务，包括Web应用、移动应用、企业管理系统等</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 data-zh="人工智能" data-en="Artificial Intelligence">人工智能</h3>
+                    <p data-zh="AI技术应用开发，包括机器学习、自然语言处理、计算机视觉等解决方案" data-en="AI technology applications including machine learning, natural language processing, and computer vision solutions">AI技术应用开发，包括机器学习、自然语言处理、计算机视觉等解决方案</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 data-zh="信息安全" data-en="Information Security">信息安全</h3>
+                    <p data-zh="全面的信息安全服务，包括安全评估、漏洞检测、安全防护和应急响应" data-en="Comprehensive information security services including security assessment, vulnerability detection, and incident response">全面的信息安全服务，包括安全评估、漏洞检测、安全防护和应急响应</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-zh="关于我们" data-en="About Us">关于我们</h2>
+                    <p data-zh="四川哈夕信息技术有限责任公司是一家专注于信息技术服务的高新技术企业。我们拥有一支经验丰富的技术团队，致力于为客户提供最优质的技术解决方案。" data-en="Sichuan Haxi Information Technology Co., Ltd. is a high-tech enterprise focused on information technology services. We have an experienced technical team dedicated to providing the highest quality technology solutions for our clients.">四川哈夕信息技术有限责任公司是一家专注于信息技术服务的高新技术企业。我们拥有一支经验丰富的技术团队，致力于为客户提供最优质的技术解决方案。</p>
+                    <p data-zh="我们的使命是通过创新的技术手段，帮助企业实现数字化转型，提升运营效率，创造更大的商业价值。" data-en="Our mission is to help enterprises achieve digital transformation through innovative technology, improve operational efficiency, and create greater business value.">我们的使命是通过创新的技术手段，帮助企业实现数字化转型，提升运营效率，创造更大的商业价值。</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p data-zh="成功项目" data-en="Successful Projects">成功项目</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>30+</h3>
+                        <p data-zh="专业团队" data-en="Expert Team">专业团队</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p data-zh="年行业经验" data-en="Years Experience">年行业经验</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-zh="联系我们" data-en="Contact Us">联系我们</h2>
+                <p data-zh="随时为您提供专业的技术支持和服务" data-en="Professional technical support and services available anytime">随时为您提供专业的技术支持和服务</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-zh="公司地址" data-en="Address">公司地址</h4>
+                            <p data-zh="四川省成都市" data-en="Chengdu, Sichuan Province">四川省成都市</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-zh="联系电话" data-en="Phone">联系电话</h4>
+                            <p>+86 028-XXXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-zh="邮箱地址" data-en="Email">邮箱地址</h4>
+                            <p>info@haxitech.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="姓名 / Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="邮箱 / Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="公司 / Company">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="留言 / Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-zh="发送消息" data-en="Send Message">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-zh="哈夕科技" data-en="Haxi Tech">哈夕科技</h3>
+                    <p data-zh="专业的信息技术服务提供商" data-en="Professional IT service provider">专业的信息技术服务提供商</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-zh="服务项目" data-en="Services">服务项目</h4>
+                    <ul>
+                        <li data-zh="信息技术咨询" data-en="IT Consulting">信息技术咨询</li>
+                        <li data-zh="软件开发" data-en="Software Development">软件开发</li>
+                        <li data-zh="人工智能" data-en="AI Solutions">人工智能</li>
+                        <li data-zh="信息安全" data-en="Information Security">信息安全</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-zh="联系方式" data-en="Contact">联系方式</h4>
+                    <p>+86 028-XXXX-XXXX</p>
+                    <p>info@haxitech.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 四川哈夕信息技术有限责任公司. <span data-zh="保留所有权利" data-en="All rights reserved">保留所有权利</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
